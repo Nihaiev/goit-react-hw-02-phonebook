@@ -1,18 +1,16 @@
 .list {
-    background-color: rgb(2, 48, 85);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 4px;
-    box-shadow: 0.5rem 0.5rem 2rem rgb(167, 164, 164),
-        -0.5rem -0.5rem 2rem rgb(172, 171, 171);
+
 }
 
 .item {
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 5px;
@@ -23,3 +21,19 @@
 .contact {
     margin-right: 30px;
 }
+ .btn {
+    text-decoration: none;
+    cursor: pointer;
+    width: 90px;
+    font-weight: bold; 
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background: #ffffff;
+} 
+
+ .btn:hover {
+    background: #267bef;
+    color: #FFFFFF;
+    border: none;
+} 
